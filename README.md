@@ -11,6 +11,7 @@ No decorrer desta atividade busquei criar um modelo simplificado da técnica `Ba
   - Pós-poda utilizando ccp_alphas para selecionar a *melhor árvore* com o melhor "score"
   - Seguido pela obtenção dos dados antes faltantes (separados no segundo item)  agora sugeridos pela *melhor árvore* 
 - Agregação de acordo com o modelo de decisão (classificação ou regressão)
+  
 A função retorna as melhores previsões geradas por cada modelo gerado para cada amostragem e também, por meio da agregação, os valores mais adequados filtrados a partir da saída dos modelos de aprendizado (de acordo com a técnica) para substituir os dados faltantes.
 
 Uma segunda função para anexar os dados obtidos pelo **Bagging** (agregação) ao dataframe também está presente.
